@@ -1,0 +1,15 @@
+/* CSS for Footer */
+.blog-footer {
+    background-color: rgb(243, 243, 243);
+    color: gray;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 0.4rem;
+}
+
+.blog-footer p {
+    text-align: center;
+    margin: 1.5rem 0;
+}

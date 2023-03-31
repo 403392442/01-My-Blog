@@ -1,0 +1,29 @@
+/* CSS for Header */
+.blog-header {
+    margin-top: 50px;
+}
+
+.blog-header-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.blog-header-subscribe__link a {
+    color: grey;
+}
+
+.blog-header-subscribe__link, .blog-header-search__span {
+    align-self:center;
+}
+
+.blog-header-title__h1 {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog-header-search__span {
+    margin-right: 3rem;
+}
