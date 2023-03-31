@@ -1,0 +1,57 @@
+/* CSS for Content & Sharing */
+/* CSS for overall */
+.add-border {
+    border: 1px solid gray;
+}
+
+p {
+    color: rgb(88, 88, 88);
+    font-size: 1.7rem;
+}
+
+/* CSS for flex */
+.post-container {
+    display: flex;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.post-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-item:nth-of-type(1) {
+    width: 75%;
+}
+
+.post-item:nth-of-type(2) {
+    width: 20%;
+}
+
+/* CSS for left post item */
+/* CSS for post-title-date */
+.post-title-date {
+    margin-bottom: 1rem;
+}
+
+.post-title-date .post-title {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post-title-date .post-date {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+/* CSS for post-abstract */
+.post-abstract {
+    margin: 1.5rem 0px;
+}
+
+.post-abstract hr {
+    margin: 1.5rem 0px;
+}
+
