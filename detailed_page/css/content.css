@@ -1,11 +1,11 @@
 /* CSS for Content & Sharing */
 /* CSS for overall */
 .add-border {
-    border: 1px solid gray;
+    border: 1px solid var(--post-border-color);
 }
 
 p, li {
-    color: rgb(88, 88, 88);
+    color: var(--post-text-color);
     font-size: 1.7rem;
     line-height: 2.2rem;
 }
@@ -43,7 +43,7 @@ p, li {
 }
 
 .post-title-date .post-date {
-    color: gray;
+    color: var(--date-color);
     font-size: 1.5rem;
 }
 
@@ -90,13 +90,13 @@ h2 {
 
 .post-tag {
     font-size: 1.3rem;
-    border: 2px solid lightgray;
+    border: 2px solid var(--post-tag-color__deactive);
     border-radius: 50rem;
     padding: 0.8rem;
     color: lightgray;
 }
 
 .post-tag-active {
-    border: 2px solid blue;
-    color: blue;
+    border: 2px solid var(--post-tag-color__active);
+    color: var(--post-tag-color__active);
 }

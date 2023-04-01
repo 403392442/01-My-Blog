@@ -11,8 +11,9 @@
     margin: 0 auto;
 }
 
-.blog-header-subscribe__link a {
-    color: grey;
+.blog-header-subscribe__link a,
+.blog-header-search__span span {
+    color: var(--header-text-color);
 }
 
 .blog-header-subscribe__link, .blog-header-search__span {

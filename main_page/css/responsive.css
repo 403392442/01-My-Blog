@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
     .article-container-row {
         flex-direction: column;
+        padding: 0 0.5rem;
     }
     .article-container-item {
         margin: 3px 0px;

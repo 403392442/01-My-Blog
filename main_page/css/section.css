@@ -17,11 +17,11 @@
     margin: 1.3rem 1rem;
     padding: 2rem;
     border-radius: 10px;
-    border: 8px solid rgb(236, 235, 235);
+    border: 8px solid var(--main-border-color);
 }
 
 .article-container-item:hover {
-    border: 1px solid rgb(236, 235, 235);
+    border: 1px solid var(--main-border-color);
 }
 
 .article-details {
@@ -46,16 +46,16 @@
 }
 
 .article-category-world {
-    color: rgb(71, 116, 211)
+    color: var(--category-world-color);
 }
 
 .article-category-design {
-    color: rgb(59, 185, 33);
+    color: var(--category-design-color);
 }
 
 .article-date {
     font-size: 1.2rem;
-    color: gray;
+    color: var(--date-color);
 }
 
 .article-title {

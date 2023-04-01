@@ -14,7 +14,7 @@ h2 {
 }
 
 .sharing-about {
-    background-color: lightgray;
+    background-color: var(--post-about-color);
     padding: 1.5rem;
 }
 

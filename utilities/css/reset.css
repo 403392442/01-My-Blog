@@ -1,4 +1,20 @@
 /* CSS Reset */
+:root {
+    --link-color: rgb(35, 145, 218);
+    --category-world-color: rgb(35, 145, 218);
+    --category-design-color: rgb(43, 153, 21);
+    --date-color: gray;
+    --footer-text-color: gray;
+    --header-text-color: gray;
+    --main-border-color: rgb(236, 235, 235);
+    --post-border-color: gray;
+    --footer-background-color: rgb(248, 248, 248);
+    --post-text-color: rgb(88, 88, 88);
+    --post-tag-color__deactive: lightgray;
+    --post-tag-color__active: rgb(35, 145, 218);
+    --post-about-color: rgb(248, 248, 248);
+}
+
 *,
 *::before,
 *::after {
@@ -15,4 +31,8 @@ body {
     font-size: 1.6rem;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+a {
+    color: var(--link-color)
 }

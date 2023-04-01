@@ -1,7 +1,7 @@
 /* CSS for Footer */
 .blog-footer {
-    background-color: rgb(243, 243, 243);
-    color: gray;
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
     width: 100%;
     max-width: 100rem;
     margin: 0 auto;
