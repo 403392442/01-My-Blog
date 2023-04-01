@@ -1,0 +1,25 @@
+.sharing-about,
+.sharing-archives,
+.sharing-elsewhere {
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sharing-about {
+    background-color: lightgray;
+    padding: 1.5rem;
+}
+
+.sharing-archives li,
+.sharing-elsewhere li {
+    list-style: none;
+}
+
+.sharing-archives a,
+.sharing-elsewhere a {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}

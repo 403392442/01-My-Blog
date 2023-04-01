@@ -4,9 +4,10 @@
     border: 1px solid gray;
 }
 
-p {
+p, li {
     color: rgb(88, 88, 88);
     font-size: 1.7rem;
+    line-height: 2.2rem;
 }
 
 /* CSS for flex */
@@ -23,11 +24,11 @@ p {
 }
 
 .post-item:nth-of-type(1) {
-    width: 75%;
+    width: 70%;
 }
 
 .post-item:nth-of-type(2) {
-    width: 20%;
+    width: 25%;
 }
 
 /* CSS for left post item */
@@ -46,12 +47,56 @@ p {
     font-size: 1.5rem;
 }
 
-/* CSS for post-abstract */
-.post-abstract {
-    margin: 1.5rem 0px;
+/* CSS for content */
+.post-abstract,
+.post-heading,
+.post-sub-heading-border,
+.post-sub-heading-list {
+    margin: 2rem 0px;
+}
+
+.post-abstract p,
+.post-heading p,
+.post-sub-heading-border p,
+.post-sub-heading-list p,
+.post-sub-heading-list ul,
+.post-sub-heading-list ol {
+    margin-bottom: 1.5rem;
+}
+
+.post-heading h2,
+.post-sub-heading-border h2,
+.post-sub-heading-list h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post-sub-heading-list ul,
+.post-sub-heading-list ol {
+    margin-left: 5rem;
 }
 
 .post-abstract hr {
     margin: 1.5rem 0px;
 }
 
+h2 {
+    margin-bottom: 0.4rem;
+}
+
+/* CSS for post-tag */
+.post-tags {
+    margin: 7rem 0;
+}
+
+.post-tag {
+    font-size: 1.3rem;
+    border: 2px solid lightgray;
+    border-radius: 50rem;
+    padding: 0.8rem;
+    color: lightgray;
+}
+
+.post-tag-active {
+    border: 2px solid blue;
+    color: blue;
+}
